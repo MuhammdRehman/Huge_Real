@@ -42,7 +42,7 @@ void Part_1()
 				A[i].Trim();
 			}
 			int l, m;
-			cout << "Enter Huge Numbers(1 to 5) : ";
+			cout << "Enter Huge Numbers/Operands(1 to 5) : ";
 			cin >> l >> m;
 			HugeIntegers S =((A[l - 1]) + (A[m - 1]));
 			//((A[l - 1]) -= (A[m - 1]));
@@ -58,7 +58,7 @@ void Part_1()
 				A[i].Trim();
 			}
 			int l, m;
-			cout << "Enter Huge Numbers(1 to 5) : ";
+			cout << "Enter Huge Numbers/Operands(1 to 5) : ";
 			cin >> l >> m;
 			HugeIntegers S = (A[l - 1]) - (A[m - 1]);
 			//A[l - 1]++;// = A[l - 1];
@@ -74,7 +74,7 @@ void Part_1()
 				A[i].Trim();
 			}
 			int l, m;
-			cout << "Enter Huge Numbers(1 to 5) : ";
+			cout << "Enter Huge Numbers/Operands1 to 5) : ";
 			cin >> l >> m;
 			cout << (A[l - 1] < A[m - 1]) ? "True" : "false";
 			break;
@@ -86,7 +86,7 @@ void Part_1()
 				A[i].Trim();
 			}
 			int l, m;
-			cout << "Enter Huge Numbers(1 to 5) : ";
+			cout << "Enter Huge Numbers/Operands(1 to 5) : ";
 			cin >> l >> m;
 			cout << (A[l - 1] > A[m - 1]) ? "True" : "false";
 			break;
@@ -98,7 +98,7 @@ void Part_1()
 				A[i].Trim();
 			}
 			int l, m;
-			cout << "Enter Huge Numbers(1 to 5) : ";
+			cout << "Enter Huge Numbers/Operands(1 to 5) : ";
 			cin >> l >> m;
 			//A[l - 1].Trim(); A[m - 1].Trim();
 			cout << (A[l - 1] == A[m - 1]) ? "True" : "false";
@@ -107,7 +107,7 @@ void Part_1()
 		case(6):
 		{
 			int l;
-			cout << "Enter a Huge Number(1 to 5) : ";
+			cout << "Enter a Huge Number/Operands(1 to 5) : ";
 			cin >> l;
 			A[l - 1].Trim();
 			A[l - 1].print();
@@ -120,7 +120,7 @@ void Part_1()
 				A[i].Trim();
 			}
 			int l, m;
-			cout << "Enter Huge Numbers(1 to 5) : ";
+			cout << "Enter Huge Numbers/Operands(1 to 5) : ";
 			cin >> l >> m;
 			HugeIntegers H = (A[l - 1] * A[m - 1]);
 			cout << endl;
@@ -134,7 +134,7 @@ void Part_1()
 				A[i].Trim();
 			}
 			int l, m;
-			cout << "Enter Huge Numbers(1 to 5) : ";
+			cout << "Enter Huge Numbers/Operands(1 to 5) : ";
 			cin >> l >> m;
 			HugeIntegers H = A[l - 1] / A[m - 1];
 			cout << endl;
@@ -148,7 +148,7 @@ void Part_1()
 				A[i].Trim();
 			}
 			int l, m;
-			cout << "Enter Huge Numbers(1 to 5) : ";
+			cout << "Enter Huge Numbers/Operands(1 to 5) : ";
 			cin >> l >> m;
 			 A[l - 1] /= A[m - 1];
 			cout << endl;
@@ -215,7 +215,7 @@ void Part_2()
 				A[i].Trim();
 			}*/
 			int l, m;
-			cout << "Enter Huge Numbers(1 to 5) : ";
+			cout << "Enter Huge Numbers/Operands(1 to 5) : ";
 			cin >> l >> m;
 			Huge_Int_Double S = ((A[l - 1])+(A[m - 1]));
 			//((A[l - 1]) -= (A[m - 1]));
@@ -232,7 +232,7 @@ void Part_2()
 				A[i].Trim();
 			}
 			int l, m;
-			cout << "Enter Huge Numbers(1 to 5) : ";
+			cout << "Enter Huge Numbers/Operands(1 to 5) : ";
 			cin >> l >> m;
 			Huge_Int_Double S = (A[l - 1]) - (A[m - 1]);
 			//A[l - 1]++;// = A[l - 1];
@@ -248,7 +248,7 @@ void Part_2()
 				A[i].Trim();
 			}
 			int l, m;
-			cout << "Enter Huge Numbers(1 to 5) : ";
+			cout << "Enter Huge Numbers/Operands(1 to 5) : ";
 			cin >> l >> m;
 			cout << (A[l - 1] < A[m - 1]) ? "True" : "false";
 			break;
@@ -260,7 +260,7 @@ void Part_2()
 				A[i].Trim();
 			}
 			int l, m;
-			cout << "Enter Huge Numbers(1 to 5) : ";
+			cout << "Enter Huge Numbers/Operands(1 to 5) : ";
 			cin >> l >> m;
 			cout << (A[l - 1] > A[m - 1]) ? "True" : "false";
 			break;
@@ -272,7 +272,7 @@ void Part_2()
 				A[i].Trim();
 			}
 			int l, m;
-			cout << "Enter Huge Numbers(1 to 5) : ";
+			cout << "Enter Huge Numbers/Operands(1 to 5) : ";
 			cin >> l >> m;
 			//A[l - 1].Trim(); A[m - 1].Trim();
 			cout << ((A[l - 1] == A[m - 1])? "Both Numbers are Equal":"Numbers are diffrent");
