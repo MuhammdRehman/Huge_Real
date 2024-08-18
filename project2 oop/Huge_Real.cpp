@@ -45,8 +45,6 @@ void Part_1()
 			cout << "Enter Huge Numbers/Operands(1 to 5) : ";
 			cin >> l >> m;
 			HugeIntegers S =((A[l - 1]) + (A[m - 1]));
-			//((A[l - 1]) -= (A[m - 1]));
-			//(A[l - 1]).print();
 			cout << endl;
 			S.print();
 			break;
@@ -60,10 +58,7 @@ void Part_1()
 			int l, m;
 			cout << "Enter Huge Numbers/Operands(1 to 5) : ";
 			cin >> l >> m;
-			HugeIntegers S = (A[l - 1]) - (A[m - 1]);
-			//A[l - 1]++;// = A[l - 1];
-			//A[l - 1]++.print();
-			//A[l-1].print();
+			HugeIntegers S = (A[l - 1]) - (A[m - 1])
 			S.print();
 			break;
 		}
@@ -100,7 +95,6 @@ void Part_1()
 			int l, m;
 			cout << "Enter Huge Numbers/Operands(1 to 5) : ";
 			cin >> l >> m;
-			//A[l - 1].Trim(); A[m - 1].Trim();
 			cout << (A[l - 1] == A[m - 1]) ? "True" : "false";
 			break;
 		}
@@ -210,18 +204,11 @@ void Part_2()
 		{
 		case(1):
 		{
-			/*for (int i = 0; i < s; i++)
-			{
-				A[i].Trim();
-			}*/
 			int l, m;
 			cout << "Enter Huge Numbers/Operands(1 to 5) : ";
 			cin >> l >> m;
 			Huge_Int_Double S = ((A[l - 1])+(A[m - 1]));
-			//((A[l - 1]) -= (A[m - 1]));
-			//(A[l - 1]).print();
 			cout << endl;
-			//cout << A[m - 1].add(A[l - 1]);
 			S.print();
 			break;
 		}
@@ -235,9 +222,6 @@ void Part_2()
 			cout << "Enter Huge Numbers/Operands(1 to 5) : ";
 			cin >> l >> m;
 			Huge_Int_Double S = (A[l - 1]) - (A[m - 1]);
-			//A[l - 1]++;// = A[l - 1];
-			//A[l - 1]++.print();
-			//A[l-1].print();
 			S.print();
 			break;
 		}
@@ -274,7 +258,6 @@ void Part_2()
 			int l, m;
 			cout << "Enter Huge Numbers/Operands(1 to 5) : ";
 			cin >> l >> m;
-			//A[l - 1].Trim(); A[m - 1].Trim();
 			cout << ((A[l - 1] == A[m - 1])? "Both Numbers are Equal":"Numbers are diffrent");
 			break;
 		}
