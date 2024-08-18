@@ -174,7 +174,6 @@ void Part_2()
 	ifstream Rdr("Huge_Int.txt");
 	int s;
 	Rdr >> s;
-	
 	A = new Huge_Int_Double[s];
 	for (int i = 0; i < s; i++)
 	{
@@ -287,7 +286,6 @@ void Part_2()
 		system("cls");
 		Part_2();
 	}
-
 }
 int main()
 {
@@ -295,7 +293,6 @@ int main()
 	{
 		int a;
 		do {
-
 			cout << "\nParts of Huge_Real \n\n1.Part 1 : HugeIntegers_Using_Floating_Point\n\n2.Part 2 : Using Double Hexa(0...to...Z\n\nWhich one you want to Perform  :  ";
 			cin >> a;
 			cout << endl << endl;

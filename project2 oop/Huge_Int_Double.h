@@ -51,9 +51,7 @@ public:
 	/*Huge_Int_Double operator*(const Huge_Int_Double& H)const;
 	Huge_Int_Double operator*=(const Huge_Int_Double& H);
 	Huge_Int_Double operator/(Huge_Int_Double& H)const;
-	Huge_Int_Double operator/=(Huge_Int_Double& H);
-	Huge_Int_Double operator%(Huge_Int_Double& H)const;
-	Huge_Int_Double operator%=(const Huge_Int_Double& H);*/
+	Huge_Int_Double operator/=(Huge_Int_Double& H);*/
 	Huge_Int_Double operator--();
 };
 
