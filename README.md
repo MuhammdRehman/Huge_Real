@@ -27,3 +27,7 @@ The Huge Real Calculator is a software application for performing arithmetic ope
 - The programm will read numbers from input.txt file in the very beginning.
 - Make sure input.txt file is according to the base you selected.
   
+## input.txt file overview
+- First line contains n numbers on which actions need to perform.
+- Next n lines represents Numbers.
+- You can use decimal in input.txt file also.
