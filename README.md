@@ -18,3 +18,9 @@ The Huge Real Calculator is a software application for performing arithmetic ope
 
 - Visual Studio IDE (or any compatible C++ compiler)
 - Basic understanding of number systems and bases
+
+## Requirements
+- User has the facility to work in any base upto 36.
+- The only requirement is that make sure input.txt file is according to that base. Otherwise you will not proceed furthur.
+
+
