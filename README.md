@@ -23,4 +23,7 @@ The Huge Real Calculator is a software application for performing arithmetic ope
 - User has the facility to work in any base upto 36.
 - The only requirement is that make sure input.txt file is according to that base. Otherwise you will not proceed furthur.
 
-
+## Input Method
+- The programm will read numbers from input.txt file in the very beginning.
+- Make sure input.txt file is according to the base you selected.
+  
